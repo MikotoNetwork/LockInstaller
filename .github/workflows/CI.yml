@@ -36,7 +36,7 @@ jobs:
       - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: BatteryWhitelist-debug-${{ github.sha }}
+          name: LockInstaller-debug-${{ github.sha }}
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
           retention-days: 7
