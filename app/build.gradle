@@ -9,7 +9,7 @@ configurations.all {
 }
 
 android {
-    namespace 'top.misaknetwork.installerlocker'
+    namespace 'top.misaknetwork.lockinstaller'
     compileSdk 37
 
     signingConfigs {
@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "top.misaknetwork.installerlocker"
+        applicationId "top.misaknetwork.lockinstaller"
         minSdk 29
         targetSdk 37
         versionCode 1
