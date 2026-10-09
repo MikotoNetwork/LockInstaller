@@ -1,3 +1,9 @@
+id=LockInstaller
+name=LockInstaller
+version=1.0
+versionCode=1
+author=misaknetwork
+description=强制劫持系统安装器至第三方安装器
 minApiVersion=102
 targetApiVersion=102
 autoHotReload=true
